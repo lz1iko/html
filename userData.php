@@ -10,4 +10,4 @@
     <p>Your e-mail <?php echo $_GET["EMAILA"];?></p>
 
 </body>
-</html>
+</html> 
