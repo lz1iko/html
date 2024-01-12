@@ -1,0 +1,155 @@
+body{
+    background-color: rgb(151, 145, 145);
+}
+
+
+ul {
+    color: yellow;
+
+}
+p{
+text-align: center;
+
+}
+/* selektira po class*/
+.blue{
+    background: blue;
+    color: yellow;
+}
+/* selekt po id */
+#pink{
+
+background: pink;
+color: red;
+
+}
+ol{
+    color: blue;
+    background: none;
+}
+table{
+    color: brown;
+}
+.manyStyles{
+font-size: 20;
+font-family: Arial, Helvetica, sans-serif;
+    color: black;
+    background: #fff;
+    border: 2px solid #000;
+    text-align: right;
+    padding: 30px;
+margin: 50px;
+
+
+}
+.el{
+    background: olive;
+    columns: #ffff;
+    padding: 30px 100px 50px 20px;
+    margin: 50px 200px;
+    opacity: 0.5;
+}
+span{
+    color: red;
+    font-size: 30px
+}
+.green{color: green ;
+}
+.class2{
+    color: yellow;
+}
+.square{
+background: blue;
+height: 100px;
+width: 100px;
+text-align: center;
+line-height: 100px;
+}
+
+.cirkal{
+
+background-color: pink;
+height: 100px;
+width: 100px;
+border-radius: 100px;
+text-align: center;
+line-height: 100px;
+}
+
+.imgHolder{
+background: lightcoral;
+
+
+}
+.imgHolder img{
+    width: 300px;
+    float: left;
+}
+.imgHolder .redCol{
+
+    color: red;
+}
+.clear{
+clear: both;
+
+}
+.menu {
+background: lightgreen;
+
+}
+.menu ul li {
+    background: green;
+    display: inline-block;
+    
+}
+.menu ul li :hover{
+    background: olive;
+}
+
+.menu ul li a {
+    color: aliceblue;
+    text-decoration: none;
+    padding: 10px 20px;
+}
+.menu ul li a span{
+    display: inline-block;
+}
+.bttn {
+
+
+    background: pink;
+    width: 100px;
+    text-align: center;
+    padding: 20px 10px;
+    border-radius: 10px;
+    box-shadow: 5px 4px 6px #000;
+    margin-bottom: 20px;
+
+}
+.bttn:hover{
+box-shadow: none;
+}
+.parrent{
+background: red;
+width: 300px;
+height: 200px;
+position: relative;
+}
+.child{
+    background-color: blue;
+    width: 100px;
+    height: 50px;
+    position: absolute;
+    right: 0px;
+    top: 10px;
+}
+.gridContainer{
+display: grid;
+gap: 50px;
+grid-template-columns: auto auto auto auto;
+grid-template-rows: 100px 100px ;
+
+}
+.gridContainer .item{
+background: pink;
+}
